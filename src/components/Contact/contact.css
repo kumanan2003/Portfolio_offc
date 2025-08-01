@@ -97,27 +97,3 @@
     width: 3rem;
 }
 
-@media screen and (max-width: 313px) {
-    .contactPageTitle {
-        font-size: 2rem;
-    }
-
-    .clientImg {
-        min-width: 7rem;
-        width: 40%;
-    }
-
-    .submitBtn {
-        padding: 0.5rem 2rem;
-    }
-
-    .name, .email, .msg {
-        padding: 0.5rem;
-        font-size: 0.9rem;
-    }
-
-    .link {
-        height: 2.5rem;
-        width: 2.5rem;
-    }
-}
