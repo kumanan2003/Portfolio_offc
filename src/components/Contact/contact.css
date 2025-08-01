@@ -18,30 +18,37 @@
 .clientDesc {
     font-weight: 300;
     font-size: 1rem;
+    text-align: center;
 }
 
 .clientImgs {
     margin: 1rem 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center; /* center images */
+    gap: 1rem;
 }
 
 .clientImg {
     object-fit: cover;
     width: 23%;
     min-width: 9rem;
-    margin: auto;
+    margin: 0.25rem;
     padding: 0.25rem;
 }
 
 #clients {
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contactDesc {
     padding: 1rem;
     font-size: medium;
     font-weight: 300;
+    text-align: center;
 }
 
 .contactForm {
@@ -64,6 +71,7 @@
     border: none;
     border-radius: 0.5rem;
     background: rgb(40, 40, 40);
+    box-sizing: border-box;
 }
 
 .submitBtn {
@@ -72,16 +80,44 @@
     border-radius: 0.5rem;
     margin: 2rem;
     padding: 0.75rem 3.5rem;
+    cursor: pointer;
 }
 
 .links {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center; /* center icons */
+    gap: 1rem;
+    margin-top: 1rem;
 }
 
 .link {
     object-fit: cover;
     height: 3rem;
     width: 3rem;
-    margin: 0 0.75rem;
+}
+
+@media screen and (max-width: 313px) {
+    .contactPageTitle {
+        font-size: 2rem;
+    }
+
+    .clientImg {
+        min-width: 7rem;
+        width: 40%;
+    }
+
+    .submitBtn {
+        padding: 0.5rem 2rem;
+    }
+
+    .name, .email, .msg {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .link {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
 }
