@@ -16,7 +16,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_6phm4ar', 'template_zcxds5a', form.current, 'blaHt_5KIJ711DfGH')
+        emailjs.sendForm('service_0ip436d', 'template_g7dglxr', form.current, 'KBwKW8ctZ0SC4DcIh')
             .then((result) => {
                 console.log(result.text);
                 e.target.reset();
@@ -27,20 +27,7 @@ const Contact = () => {
     };
     
     return (
-        <div id='contactPage'>
-            <div id="clients">
-                <h1 className="contactPageTitle">My clients</h1>
-                <span className="clientDesc">
-                    I have had the opportunity to work with a diverse group of companies. 
-                    Some of the notable companies I have worked with includes
-                </span>
-                <div className="clientImgs">
-                    <img src={Walmart} alt="Client" className="clientImg" />
-                    <img src={Adobe} alt="Client" className="clientImg" />
-                    <img src={Microsoft} alt="Client" className="clientImg" />
-                    <img src={Facebook} alt="Client" className="clientImg" />                   
-                </div>
-            </div>
+       <div>
             <div id="contact">
                 <h1 className="contactPageTitle">Contact Me</h1>
                 <span className="contactDesc">Please fill out the form below to discuss any work opportunities.</span>

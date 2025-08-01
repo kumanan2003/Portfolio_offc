@@ -24,13 +24,6 @@ const Skills = () => {
                         <p>This demo text can be changed while making the production ready website.</p>
                     </div>
                 </div>
-                <div className="skillBar">
-                    <img src={AppDesign} alt="AppDesign" className="skillBarImg" />
-                    <div className="skillBarText">
-                        <h2>App Design</h2>
-                        <p>You can write text related to mobile app development.</p>
-                    </div>
-                </div>
             </div>
         </section>
     );
