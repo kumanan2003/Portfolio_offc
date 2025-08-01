@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio_offc/static/css/main.c5428d17.css",
-    "main.js": "/Portfolio_offc/static/js/main.5985b5f7.js",
+    "main.js": "/Portfolio_offc/static/js/main.f98f4c91.js",
     "static/media/portfolio-6.png": "/Portfolio_offc/static/media/portfolio-6.4a10fac7d271e87859e9.png",
     "static/media/portfolio-2.png": "/Portfolio_offc/static/media/portfolio-2.33d06b368b4e6395030e.png",
     "static/media/portfolio-4.png": "/Portfolio_offc/static/media/portfolio-4.8e8bac5e33dc3f211e2b.png",
@@ -12,14 +12,15 @@
     "static/media/facebook.png": "/Portfolio_offc/static/media/facebook.81dd033a37c4860f7121.png",
     "static/media/adobe.png": "/Portfolio_offc/static/media/adobe.a08b8360ff7b700ed0c4.png",
     "static/media/walmart.png": "/Portfolio_offc/static/media/walmart.1d2b5e5c5c5a8e2bd5ce.png",
+    "static/media/letter-k.png": "/Portfolio_offc/static/media/letter-k.3df79a6ec30078a8a1f7.png",
     "static/media/ui-design.png": "/Portfolio_offc/static/media/ui-design.c4acd455fc2040eddcc8.png",
     "static/media/instagram.png": "/Portfolio_offc/static/media/instagram.0bcd1dcb7d853c327af7.png",
     "index.html": "/Portfolio_offc/index.html",
     "main.c5428d17.css.map": "/Portfolio_offc/static/css/main.c5428d17.css.map",
-    "main.5985b5f7.js.map": "/Portfolio_offc/static/js/main.5985b5f7.js.map"
+    "main.f98f4c91.js.map": "/Portfolio_offc/static/js/main.f98f4c91.js.map"
   },
   "entrypoints": [
     "static/css/main.c5428d17.css",
-    "static/js/main.5985b5f7.js"
+    "static/js/main.f98f4c91.js"
   ]
 }
